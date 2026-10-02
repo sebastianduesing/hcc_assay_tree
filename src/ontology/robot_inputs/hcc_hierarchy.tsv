@@ -91,5 +91,9 @@ OBI:0003879	targeted transcriptomic assay			subclass	transcriptomic assay
 OBI:0003880	transcriptomic assay			subclass	nucleotide sequence assay
 OBI:0003928	patient-reported symptom assay	An assay that produces information about whether or not a patient reports having a symptom.		subclass	in live organism assay
 OBI:0003929	diagnostic assay	An assay that results in a diagnosis of a disease in an organism.		subclass	in live organism assay
+OBI:0004015	questionnaire assay			subclass	in live organism assay
+OBI:0004016	clinical history collection question assay			subclass	clinical history collection assay
+OBI:0004017	disease history collection question assay			subclass	clinical history collection question assay
+OBI:0004018	clinical history collection questionnaire assay			subclass	clinical history collection assay|questionnaire assay
 OBI:0600031	enzyme-linked immunospot assay			subclass	cytometry assay
 OBI:1110126	assay measuring binding of a MHC:ligand complex			subclass	binding assay
