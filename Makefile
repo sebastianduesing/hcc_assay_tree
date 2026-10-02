@@ -56,18 +56,18 @@ src/ontology/robot_outputs/assays_from_obi.owl: build/obi.owl src/ontology/robot
 
 ### Custom terms for HCC
 # 
-src/ontology/robot_outputs/hcc_hierarchy.owl: src/ontology/robot_inputs/hcc_hierarchy.tsv
+src/ontology/robot_outputs/hcc_hierarchy.owl: src/ontology/robot_outputs/assays_from_obi.owl src/ontology/robot_inputs/hcc_hierarchy.tsv
 	$(ROBOT) template \
-	--template $< \
+	--merge-before \
+	--input $< \
+	--template $(word 2,$^) \
 	--output $@
 
 ### Assay tree file
 # 
-hcc_assays.owl: src/ontology/robot_outputs/assays_from_obi.owl src/ontology/robot_outputs/hcc_hierarchy.owl
-	$(ROBOT) merge \
+hcc_assays.owl: src/ontology/robot_outputs/hcc_hierarchy.owl
+	$(ROBOT) annotate \
 	--input $< \
-	--input $(word 2,$^) \
-	annotate \
 	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/hcc_assays.owl \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
