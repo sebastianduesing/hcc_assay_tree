@@ -51,7 +51,7 @@ src/ontology/robot_outputs/assays_from_obi.owl: build/obi.owl src/ontology/robot
 	remove \
 	--axioms logical \
 	annotate \
-	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/src/ontology/robot_outputs/assays_from_obi.owl \
+	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/src/ontology/robot_outputs/assays_from_obi.owl \
 	--output $@
 
 ### Custom terms for HCC
@@ -68,7 +68,7 @@ src/ontology/robot_outputs/hcc_hierarchy.owl: src/ontology/robot_outputs/assays_
 hcc_assays.owl: src/ontology/robot_outputs/hcc_hierarchy.owl
 	$(ROBOT) annotate \
 	--input $< \
-	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/hcc_assays.owl \
+	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/hcc_assays.owl \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/src/ontology/robot_outputs/assays_from_obi.owl#"
-     xml:base="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/src/ontology/robot_outputs/assays_from_obi.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/src/ontology/robot_outputs/assays_from_obi.owl#"
+     xml:base="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/src/ontology/robot_outputs/assays_from_obi.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/src/ontology/robot_outputs/assays_from_obi.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/src/ontology/robot_outputs/assays_from_obi.owl"/>
     
 
 
