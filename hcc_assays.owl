@@ -524,7 +524,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000115 xml:lang="en">An assay in which a measurement is made by observing entities located in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000118>in vivo assay</obo:IAO_0000118>
-        <rdfs:label>direct organism assay</rdfs:label>
         <rdfs:label>in live organism assay</rdfs:label>
     </owl:Class>
     
@@ -556,7 +555,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
         <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000118>RNA-seq assay</obo:IAO_0000118>
-        <rdfs:label>RNA-seq assay</rdfs:label>
         <rdfs:label>transcription profiling by RNA sequencing assay</rdfs:label>
     </owl:Class>
     
@@ -827,7 +825,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000118>single-cell RNA-seq</obo:IAO_0000118>
         <obo:IAO_0000119>Anna Maria Masci</obo:IAO_0000119>
         <obo:IAO_0000119>Michelle Giglio</obo:IAO_0000119>
-        <rdfs:label>single-cell RNA sequencing assay</rdfs:label>
         <rdfs:label>single-cell transcription profiling by RNA sequencing assay</rdfs:label>
     </owl:Class>
     

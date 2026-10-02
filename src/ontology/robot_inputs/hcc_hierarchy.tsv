@@ -16,9 +16,9 @@ OBI:0000893	real time polymerase chain reaction assay			subclass	targeted sequen
 OBI:0000916	flow cytometry assay			subclass	cytometry assay
 OBI:0000920	cytometric bead array assay			subclass	targeted molecular composition assay
 OBI:0000923	surface plasmon resonance binding assay			subclass	binding assay
-OBI:0000966	direct organism assay			subclass	assay
+OBI:0000966	in live organism assay			subclass	assay
 OBI:0001146	binding assay			subclass	assay
-OBI:0001271	RNA-seq assay			subclass	transcriptomic assay
+OBI:0001271	transcription profiling by RNA sequencing assay			subclass	transcriptomic assay
 OBI:0001274	genotyping by array assay			subclass	genotyping assay
 OBI:0001318	proteomic profiling by array assay			subclass	targeted molecular composition assay
 OBI:0001332	DNA methylation profiling by array assay			subclass	epigenetic assay
@@ -34,7 +34,7 @@ OBI:0002122	major histocompatibility typing assay			subclass	genotyping assay
 OBI:0002142	Nanostring nCounter miRNA expression assay			subclass	transcriptomic assay
 OBI:0002157	HBV surface antigen assay			subclass	microbial detection assay
 OBI:0002623	whole metagenome sequencing assay			subclass	microbiome composition assay
-OBI:0002631	single-cell RNA sequencing assay			subclass	cytometry assay|RNA-seq assay
+OBI:0002631	single-cell transcription profiling by RNA sequencing assay			subclass	cytometry assay|transcription profiling by RNA sequencing assay
 OBI:0002692	polymerase chain reaction assay			subclass	targeted sequence analyte assay
 OBI:0002763	16s ribosomal gene sequencing assay			subclass	microbiome composition assay
 OBI:0002764	single-cell ATAC-seq			subclass	cytometry assay|epigenetic assay
@@ -42,16 +42,16 @@ OBI:0002953	protein state assay			subclass	assay
 OBI:0002990	T cell receptor repertoire sequencing assay			subclass	immune receptor repertoire profiling assay
 OBI:0002991	B cell receptor repertoire sequencing assay			subclass	immune receptor repertoire profiling assay
 OBI:0003032	genotyping by PCR assay			subclass	genotyping assay
-OBI:0003090	bulk RNA-seq assay			subclass	RNA-seq assay
+OBI:0003090	bulk RNA-seq assay			subclass	transcription profiling by RNA sequencing assay
 OBI:0003106	sequential fluorescence in-situ hybridization assay		Xenium|CosMX	subclass	localized molecular composition assay
 OBI:0003107	slide-seq assay		Visium|Visium HD|Visium HD 3'	subclass	spatially resolved assay
 OBI:0003112	Olink assay			subclass	targeted molecular composition assay
 OBI:0003115	antigen detection by cytometric bead array assay			subclass	targeted molecular composition assay
 OBI:0003598	single cell B cell receptor repertoire sequencing assay			subclass	B cell receptor repertoire sequencing assay
 OBI:0003599	single cell T cell receptor repertoire sequencing assay			subclass	T cell receptor repertoire sequencing assay
-OBI:0003715	vital sign assay			subclass	direct organism assay
-OBI:0003734	clinical history collection assay			subclass	direct organism assay
-OBI:0003735	disease severity assay			subclass	direct organism assay
+OBI:0003715	vital sign assay			subclass	in live organism assay
+OBI:0003734	clinical history collection assay			subclass	in live organism assay
+OBI:0003735	disease severity assay			subclass	in live organism assay
 OBI:0003738	blood type assay			subclass	assay
 OBI:0003779	chemiluminescent assay			subclass	molecular analyte assay
 OBI:0003780	electrochemiluminescence assay			subclass	molecular analyte assay
@@ -70,7 +70,7 @@ OBI:0003798	viral plaque assay			subclass	microbial detection assay
 OBI:0003799	analyte detection by flow based bead assay			subclass	targeted molecular composition assay
 OBI:0003858	AIR sequence assay			subclass	nucleotide sequence assay
 OBI:0003859	antibody function assay	An assay that characterizes the functions of antibodies in an input specimen.		subclass	assay
-OBI:0003860	body morphological assay	An in live organism assay that produces information about characteristics of the organism's whole body.		subclass	direct organism assay
+OBI:0003860	body morphological assay	An in live organism assay that produces information about characteristics of the organism's whole body.		subclass	in live organism assay
 OBI:0003861	cell assay	An assay that measures characteristics of cells, reported on a per-cell basis.		subclass	assay
 OBI:0003862	cytometry with transcriptomics assay			subclass	cytometry assay
 OBI:0003863	ELISA measuring antibody binding to antigen			subclass	enzyme-linked immunosorbent assay
@@ -89,7 +89,7 @@ OBI:0003877	targeted molecular composition assay			subclass	molecular compositio
 OBI:0003878	targeted sequence analyte assay			subclass	nucleotide sequence assay
 OBI:0003879	targeted transcriptomic assay			subclass	transcriptomic assay
 OBI:0003880	transcriptomic assay			subclass	nucleotide sequence assay
-OBI:0003928	patient-reported symptom assay	An assay that produces information about whether or not a patient reports having a symptom.		subclass	direct organism assay
-OBI:0003929	diagnostic assay	An assay that results in a diagnosis of a disease in an organism.		subclass	direct organism assay
+OBI:0003928	patient-reported symptom assay	An assay that produces information about whether or not a patient reports having a symptom.		subclass	in live organism assay
+OBI:0003929	diagnostic assay	An assay that results in a diagnosis of a disease in an organism.		subclass	in live organism assay
 OBI:0600031	enzyme-linked immunospot assay			subclass	cytometry assay
 OBI:1110126	assay measuring binding of a MHC:ligand complex			subclass	binding assay
