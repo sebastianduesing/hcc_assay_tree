@@ -1,0 +1,1625 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/hcc_assays.owl#"
+     xml:base="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/hcc_assays.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/master/hcc_assays.owl">
+        <owl:versionInfo>2026-10-02</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111>editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
+        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A URL for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">The &apos;tracker item&apos; can associate a tracker with a specific ontology term.</rdfs:comment>
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
+        <obo:IAO_0000111 xml:lang="en">ontology term requester</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
+        <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
+        <obo:IAO_0000111 xml:lang="en">ISA alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
+        <obo:IAO_0000116>Requested by Alejandra Gonzalez-Beltran
+https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891&amp;atid=886178</obo:IAO_0000116>
+        <obo:IAO_0000117>Person: Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Person: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>ISA tools project (http://isa-tools.org)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An alternative term used by the IEDB.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:IAO_0000111>label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">label</obo:IAO_0000111>
+        <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.</obo:IAO_0000115>
+        <obo:IAO_0000116>12/3/12: BP: the reference to the &apos;physical examination&apos; is included to point out that a prediction is not an assay, as that does not require physical examiniation.</obo:IAO_0000116>
+        <obo:IAO_0000116>Discussion on OBI call 2023-05-01 resulted in an agreement to revise the textual definition of &apos;assay&apos;.  https://github.com/obi-ontology/obi/issues/1683.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:OBI_0001847>study assay</obo:OBI_0001847>
+        <obo:OBI_9991118>any method</obo:OBI_9991118>
+        <rdfs:label>assay</rdfs:label>
+        <rdfs:label xml:lang="en">assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>imaging assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces a picture of an entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000119>OBI branch derived</obo:IAO_0000119>
+        <rdfs:label>imaging assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <obo:IAO_0000111>genotyping assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay which generates data about a genotype from a specimen of genomic DNA. A variety of techniques and instruments can be used to produce information about sequence variation at particular genomic positions.</obo:IAO_0000115>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118>SNP analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>genotype profiling</obo:IAO_0000118>
+        <obo:IAO_0000119>OBI Biomaterial</obo:IAO_0000119>
+        <rdfs:label>genotyping assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <obo:IAO_0000111>mass spectrometry assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Identification of a proteins cut out from a 2D gel by cleaving it into peptides using trypsin digestion using electrospray ionizatino to ensure the peptides are charged, and accelerating them with an electro magnetic field in which the flight path is determined by the mass / charge ratio of the peptides. Comparing the mass/charge ratio of peptides in the proteins with databases of protein sequences allows to identify which protein gave rise to the peptides.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that identifies the amount and type of material entities present in a sample by fragmenting the sample and measuring the mass-to-charge ratio of the resulting particles.</obo:IAO_0000115>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>Philippe Rocca-Serra</obo:IAO_0000119>
+        <rdfs:label>mass spectrometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <obo:IAO_0000111>DNA sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Illumina (Solexa) sequencing is an example of DNA sequencing</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A sequencing assay which determines information on the sequence of a DNA molecule.</obo:IAO_0000115>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118>nucleotide sequencing</obo:IAO_0000118>
+        <obo:IAO_0000119>url:https://en.wikipedia.org/wiki/DNA_sequencing</obo:IAO_0000119>
+        <rdfs:label>DNA sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <obo:IAO_0000111>DNA methylation profiling assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Genome-wide, high-resolution DNA methylation profiling using bisulfite-mediated cytosine conversion. Reinders J, Delucinge Vivier C, Theiler G, Chollet D, Descombes P, Paszkowski J._PMID:18218979</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the state of methylation of DNA molecules using genomic DNA collected from a material entity using a range of techniques and instrument such as DNA sequencers and often relying on treatment with bisulfites to ensure cytosine conversion.</obo:IAO_0000115>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118>DNA methylation profiling</obo:IAO_0000118>
+        <obo:IAO_0000119>OBI branch derived</obo:IAO_0000119>
+        <rdfs:label>DNA methylation profiling assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <obo:IAO_0000111>enzyme-linked immunosorbent assay</obo:IAO_0000111>
+        <obo:IAO_0000112>1) Detection of IL-2 (analyte) in a cell supernatant (evaluant), using plate bound anti IL-2 antibodies, and a reporter enzyme-linked reporter antibody. 2) Measurement of IgG antibody (analyte) titer in a serum sample (evaluant) using plate bound antigen and a reporter anti-IgG antibody.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay where binding of an enzyme linked antibody to a material entity that is immobilized on solid support is detected utilizing a chemiluminescent reaction. Depending on the setup, the enzyme-linked antibody could be binding directly to the analyte, or it serves as a secondary antibody detecting binding of the primary antibody to the analyte.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>ELISA</obo:IAO_0000118>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>enzyme-linked immunosorbent assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000891"/>
+        <obo:IAO_0000111>tritiated thymidine incorporation assay</obo:IAO_0000111>
+        <obo:IAO_0000112>The measurement of T cell proliferation as a response to a viral peptide by culturing T cells stimulated with APCs and peptide in the presence of tritiated thymidine, and using a scintillation counter to detect the radioactivity.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cell proliferation assay in which cells are cultured in the presence of tritiated thymidine which is incorporated into newly synthesized DNA of replicating cells (during the S phase of the cell cycle). The radioactivity of tritiated thymidine in a cell is a proxy for cells that were actively replicating.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>tritiated thymidine incorporation assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000854">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>western blot assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Running a cell lysate on an acrylamide gel in a western blot aparatus to separate the constituent proteins, followed by transfer of the proteins from the gel to a nitrocellulose membrane. Staining this membrane with specific antibodies to detect the presence of specific proteins of interest.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay that detects specific peptides in an input material by separating it using gel electrophoresis, transfering the separated molecules to a membrane, and staining them with_ antibodies specific to the analyte molecules.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <obo:IAO_0000119>Philippe Rocca-Serra</obo:IAO_0000119>
+        <rdfs:label>western blot assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <obo:IAO_0000111>serum neutralization of viral infectivity assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay that measures virus-neutralizing abilities of different sera. Different dilutions of serum are mixed with virus and used to infect cells. At the lower dilutions, antibodies will block infection, but at higher dilutions, there will be too few antibodies to have an effect.The neutralization titer is expressed as the reciprocal of the highest dilution at which virus infection is blocked.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000118>influenza neutralization assay</obo:IAO_0000118>
+        <obo:IAO_0000119>url:http://www.virology.ws/2009/05/28/influenza-microneutralization-assay/</obo:IAO_0000119>
+        <rdfs:label>serum neutralization of viral infectivity assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <obo:IAO_0000111>viral hemagglutination inhibition assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Examining the ability of a monoclonal antibody to inhibit hemagglutination by Influenza A virus by comparing the levels of hemagglutination with and without the presence of the antibody.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the ability of an evaluant to inhibit hemagglutination by a virus. Hemagglutinin is a viral protein which binds to sialic acid receptors on cells or to erythrocytes, causing the cells to clump. Loss of clumping indicates that the evaluant blocks binding of hemagglutinin to sialic acid receptors.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>HAI</obo:IAO_0000118>
+        <obo:IAO_0000118>HIA</obo:IAO_0000118>
+        <obo:IAO_0000118>biological activity</obo:IAO_0000118>
+        <obo:IAO_0000118>hemagglutination inhibition</obo:IAO_0000118>
+        <obo:IAO_0000118>viral haemagglutinin inhibition assay</obo:IAO_0000118>
+        <obo:IAO_0000119>OBI branch derived</obo:IAO_0000119>
+        <rdfs:label>viral hemagglutination inhibition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003861"/>
+        <obo:IAO_0000111>cell proliferation assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Measuring the amount of tritiated thymidine incorporated by dividing cells as a proxy for cell proliferation.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cytometry assay which measures the degreee to which input cells are replicating.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>cell proliferation assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003878"/>
+        <obo:IAO_0000111>real time polymerase chain reaction assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay, based on the PCR, that amplifies and simultaneously quantifies a specific DNA molecule based on the use of complementary probes/primers. It enables both detection and quantification (as absolute number of copies or relative amount when normalized to DNA input or additional normalizing genes) of one or more specific sequences in a DNA sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000118>Q-PCR</obo:IAO_0000118>
+        <obo:IAO_0000118>kinetic polymerase chain reaction</obo:IAO_0000118>
+        <obo:IAO_0000118>qPCR</obo:IAO_0000118>
+        <obo:IAO_0000118>quantitative real time polymerase chain reaction</obo:IAO_0000118>
+        <obo:IAO_0000119>url:http://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction</obo:IAO_0000119>
+        <rdfs:label>real time polymerase chain reaction assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000916">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <obo:IAO_0000111>flow cytometry assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Using a flow cytometer to quantitate the percent of CD3 positive cells in a population by labeling them with a FITC tagged anti-CD3 antibody.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cytometry assay in which an input cell population is put in solution, is passed by a laser, and optical sensors are used to detect scattering of the laser light and/or fluorescence of specific markers to count and characterize the particles in solution.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>FACS</obo:IAO_0000118>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>flow cytometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000920 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000920">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>cytometric bead array assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Using a Luminex machine to detect IFN-gamma and IL-10 in the supernatant of a cell culture.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay in which a series of beads coated with antibodies, antigens, or other small molecules are used to detect an analyte of interest.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>Luminex assay</obo:IAO_0000118>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>cytometric bead array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <obo:IAO_0000111>surface plasmon resonance binding assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Running a Biacore instrument to measure the affinity, on and off rates of binding of a plate bound antibody to a antigen passing by in flow.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A binding assay that uses the detection of electromagnetic waves in a surface to detect material entities adsorbed to the surface, which change the local optical index of refraction.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>surface plasmon resonance binding assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>in live organism assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Measuring the rate in which cells that are pulsed with a peptide are killed inside a mouse by peptide specific cytotoxic T cells.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay in which a measurement is made by observing entities located in an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000118>in vivo assay</obo:IAO_0000118>
+        <rdfs:label>direct organism assay</rdfs:label>
+        <rdfs:label>in live organism assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>binding assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Determination of KD value for an antibody binding a protein using a BIACORE assay. Using plate bound antigen in an ELISA to determine if a mixture of serum antibodies bind the antigen. The following are NOT binding assays, as the desired output is not binding data: RNA microarray experiments to determine levels of gene expression. ChIP experiments to determine where in DNA a transcription factor binds. Using an IL-2 antibody on an ELISA plate to determine presence of IL-2 after stimulating a T cell culture.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An assay with the objective to characterize the disposition of two or more material entities to form a complex.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Jason Greenbaum</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <rdfs:label>binding assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <obo:IAO_0000111>transcription profiling by RNA sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A type of transcription profiling assay where transcripts are extracted from a sample, usually (but not always) transformed into cDNA, and then sequenced. Sequence reads are generally mapped to a reference and quantified to establish levels of gene transcription.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000118>RNA-seq assay</obo:IAO_0000118>
+        <rdfs:label>RNA-seq assay</rdfs:label>
+        <rdfs:label>transcription profiling by RNA sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <obo:IAO_0000111>genotyping by array assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A genotyping assay that uses an array</obo:IAO_0000115>
+        <obo:IAO_0000117>ArrayExpress production team</obo:IAO_0000117>
+        <obo:IAO_0000119>EFO:0002767</obo:IAO_0000119>
+        <rdfs:label>genotyping by array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>proteomic profiling by array assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that detects proteins in a sample (quantified or otherwise analyzed), e.g. antibody profiling using an array based technology.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000119>EFO:0002765</obo:IAO_0000119>
+        <rdfs:label>proteomic profiling by array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <obo:IAO_0000111>DNA methylation profiling by array assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A DNA methylation profiling assay in which the methylation state of DNA is determined and can be compared between samples using array technology</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000119>EFO:0002759</obo:IAO_0000119>
+        <rdfs:label>DNA methylation profiling by array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003879"/>
+        <obo:IAO_0000111>transcription profiling by array assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A transcription profiling assay that uses array technology.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000118>RNA profiling by array assay</obo:IAO_0000118>
+        <obo:IAO_0000119>EFO:0002768</obo:IAO_0000119>
+        <obo:IAO_0000233>https://sourceforge.net/p/obi/obi-terms/757/</obo:IAO_0000233>
+        <rdfs:label>transcription profiling by array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <obo:IAO_0000111>microRNA profiling assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A transcription profiling assay that quantifies the microRNA species within a biological sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Venkat Malladi</obo:IAO_0000117>
+        <obo:IAO_0000118>miRNA expression assay</obo:IAO_0000118>
+        <obo:IAO_0000118>microRNA expression assay</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID: 23382819</obo:IAO_0000119>
+        <rdfs:label>microRNA profiling assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003861"/>
+        <obo:IAO_0000111>cytometry assay</obo:IAO_0000111>
+        <obo:IAO_0000112>An intracellular material detection by flow cytometry assay measuring peforin inside a culture of T cells.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that counts and/or measures characteristics of cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>cytometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003866"/>
+        <obo:IAO_0000111>immunohistochemistry</obo:IAO_0000111>
+        <obo:IAO_0000112>Staining a brain tissue sample from an Alzheimer&apos;s disease patient with antibodies to amyloid beta to identify amyloid plaques.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>immunohistochemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <obo:IAO_0000111>genotyping by SNP array assay</obo:IAO_0000111>
+        <obo:IAO_0000112>PMID:20080586</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A genotyping by array assay that uses SNP array technology.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Janos Demeter</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>DNA sequence variation detection by snp array</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:20393561</obo:IAO_0000119>
+        <obo:IAO_0000233>https://sourceforge.net/p/obi/obi-terms/720/</obo:IAO_0000233>
+        <rdfs:label>genotyping by SNP array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <obo:IAO_0000111>bio-layer interferometry assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Detecting the presence of an antibody in a cell culture supernatant by detecting a shift in the interference pattern reflected from a layer of immobilized protein to which the antibody binds.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A binding assay that detects a shift in the interference pattern reflected from a layer of immobilized material on the biosensor tip to measure binding to- or dissociating from the material on the biosensor.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>biolayer interferometry, BLI</obo:IAO_0000118>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>bio-layer interferometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <obo:IAO_0000111>cytometry time of flight assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Whole human blood samples were incubated with lipopolysaccharide (LPS) to examine dose-dependent signaling responses within the toll-like receptor 4 (TLR4) pathway. After LPS stimulation, rare earth metal tagged antibodies against phenotypic markers were used to stain the blood sample (Nd143-CD45RA, Nd145-CD4, Er170-CD3, Sm152-TCR__, Pr141-CD7, Nd146-CD8, Nd142-CD19). A Fluidigm CyTOF version 1 instrument equipped with CyTOF software version 5.1.648 was used to measure and analyze the levels of antibody staining reflective of the level of expression of those surface receptors.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cytometry assay in which the presence of molecules of interest on or in cells is indicated by binding of antibodies labeled with rare earth element tags which are detected by time-of-flight mass spectrometry.</obo:IAO_0000115>
+        <obo:IAO_0000117>ImmPort</obo:IAO_0000117>
+        <obo:IAO_0000118>CyTOF</obo:IAO_0000118>
+        <obo:IAO_0000118>mass cytometry assay</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:26190063</obo:IAO_0000119>
+        <rdfs:label>cytometry time of flight assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185"/>
+        <obo:IAO_0000111>microscopy assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Lung, liver, and spleen tissue samples were collected from female BALB/c mice and fixed in 100% formalin solution, embedded in paraffin, sectioned, and stained with hematoxylin and eosin. The stained samples were examined for signs of pathological changes under light microscopy.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An imaging assay that utilizes a microscope to magnify features of the visualized material of interest that are not visible to naked eye.</obo:IAO_0000115>
+        <obo:IAO_0000117>ImmPort</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:21685355</obo:IAO_0000119>
+        <rdfs:label>microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <obo:IAO_0000111>major histocompatibility typing assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Blood samples from Holstein-Friesian heifer calves were used to isolate white blood cell (WBC) pellets, from which total RNA was extracted using Tri-reagent and cDNA generated using a Reverse Transcription Kit, both_ according to the manufacturers? instructions. An alignment of sequences of known bovine MHCI gene cDNAs, as presented in the IPD-MHC database (May 2014), was used to design a series of 3_ (for) and 5_ (rev) pan-MHCI primers. cDNA from individual animals was subject to PCR amplification in two separate reactions using either the For1/Rev2 or the For3/Rev1 primer pairs. For each sample primers using a unique combination of MID tags were used to allow subsequent de-multiplexing of the sequence data. PCRs were conducted using the Phusion High-Fidelity PCR kit. Following amplification, 5?_l of PCR products from each sample were pooled, purified using Agencourt AMPure XP Beads and run on a 1.5?% agarose gel. Bands of the appropriate size_ were extracted and purified using the Qiagen Gel extraction kit. Libraries were submitted to Edinburgh Genomics where after standard quality control procedures they underwent 300 base paired-end sequencing on an Illumina MiSeq v3. Data were separated into reads generated from For1Rev2 and For3Rev1 primer pairs, generating separate datasets for up to 192 samples. Within each sample, reads were clustered into unique variants which were subsequently compared using BLAST against a database of the previously identified bovine MHCI sequences. This process identified &gt;140 novel classical MHCI genes and defined 62 novel MHCI haplotypes, dramatically expanding the known bovine MHCI repertoire.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A genotyping assay in which the alleles of genes encoding for major histocompatibility complex molecules are determined.</obo:IAO_0000115>
+        <obo:IAO_0000116>Genotyping assays should ideally identify which part of the genome the information is about. We do not currently have a good way to do this. That information should be added later.</obo:IAO_0000116>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>MHC typing, HLA typing</obo:IAO_0000118>
+        <obo:IAO_0000119>PMC:2628004</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:27516207</obo:IAO_0000119>
+        <rdfs:label>major histocompatibility typing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <obo:IAO_0000111>Nanostring nCounter miRNA expression assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A microRNA profiling assay using digital molecular barcoding technology to quantify target microRNA molecules without the need for amplification.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jason Hilton</obo:IAO_0000117>
+        <obo:IAO_0000118>microRNA counts</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:26729350</obo:IAO_0000119>
+        <obo:IAO_0000119>url:http://www.nanostring.com/applications/technology</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/806</obo:IAO_0000233>
+        <obo:IAO_0000234>ENCODE DCC</obo:IAO_0000234>
+        <rdfs:label>Nanostring nCounter miRNA expression assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003870"/>
+        <obo:IAO_0000111>HBV surface antigen assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay that is meant to detect hepatitis B virus (HBV) surface antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>HBsAg assay</obo:IAO_0000118>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label>HBV surface antigen assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003869"/>
+        <obo:IAO_0000111>whole metagenome sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A DNA sequencing assay that intends to provide information on the DNA sequences of multiple genomes (a metagenome) from different organisms present in the same input sample.</obo:IAO_0000115>
+        <obo:IAO_0000116>Whole metagenome sequencing has been used to explore the composition and metabolic capability of communities of microbes found in the environment (e.g. in soil, water, etc.) and in humans and other species (e.g. in the gut, oral cavity, etc.).</obo:IAO_0000116>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000118>WMS</obo:IAO_0000118>
+        <obo:IAO_0000119>Bjoern Peters</obo:IAO_0000119>
+        <obo:IAO_0000119>Michelle Giglio</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1056</obo:IAO_0000233>
+        <rdfs:label>whole metagenome sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <obo:IAO_0000111>single-cell transcription profiling by RNA sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Single-cell RNA sequencing (scRNA-seq) assays provide the expression profiles of individual cells.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A transcription profiling by RNA sequencing assay that uses as input RNA extracts that can be traced to a single cell of origin. These extracts may come from the entire cell or only a part of the cell such as the nucleus or the cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dan Berrios</obo:IAO_0000117>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000118>scRNA-seq</obo:IAO_0000118>
+        <obo:IAO_0000118>single-cell RNA sequencing assay</obo:IAO_0000118>
+        <obo:IAO_0000118>single-cell RNA-seq</obo:IAO_0000118>
+        <obo:IAO_0000119>Anna Maria Masci</obo:IAO_0000119>
+        <obo:IAO_0000119>Michelle Giglio</obo:IAO_0000119>
+        <rdfs:label>single-cell RNA sequencing assay</rdfs:label>
+        <rdfs:label>single-cell transcription profiling by RNA sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003878"/>
+        <obo:IAO_0000111>polymerase chain reaction assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that uses polymerase chain reaction technique to amplify DNA.</obo:IAO_0000115>
+        <obo:IAO_0000117>VEuPathDB</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1117</obo:IAO_0000233>
+        <obo:IAO_0000234>VEuPathDB</obo:IAO_0000234>
+        <rdfs:label>polymerase chain reaction assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003869"/>
+        <obo:IAO_0000111>16s ribosomal gene sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An amplicon sequencing assay in which the amplicon is derived from universal primers used to amplify the 16S ribosomal RNA gene from isolate bacterial genomic DNA or metagenomic DNA from a microbioal community. Resulting sequences are compared to reference 16S sequence databases to identify or classify bacteria present within a given sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000117>Suvarna Nadendla</obo:IAO_0000117>
+        <obo:IAO_0000118>16S rRNA sequencing assay</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:31450270</obo:IAO_0000119>
+        <obo:IAO_0000234>CFDE</obo:IAO_0000234>
+        <rdfs:label>16s ribosomal gene sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <obo:IAO_0000111>single-cell ATAC-seq</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An ATAC assay designed to robustly map the accessible genome of individual cells, using sequencing integrated into a programmable microfluidics platform, in order to provide insights into cell-to-cell variation in accessibility profiles.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mark Andrew Miller, ORCID:0000-0001-9076-6066</obo:IAO_0000117>
+        <obo:IAO_0000118>scATAC-seq</obo:IAO_0000118>
+        <obo:IAO_0000119>http://www.nature.com/nature/journal/v523/n7561/full/nature14590.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/864</obo:IAO_0000233>
+        <obo:IAO_0000234>ENCODE</obo:IAO_0000234>
+        <rdfs:label>single-cell ATAC-seq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>protein state assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A type of assay that measures the quantity and/or identity of proteins in their modficied and unmodified states where modifications include phosphorylation, methylation, acetylation, etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000117>Suvarna Nadendla</obo:IAO_0000117>
+        <obo:IAO_0000119>CFDE</obo:IAO_0000119>
+        <obo:IAO_0000119>Michelle Giglio</obo:IAO_0000119>
+        <obo:IAO_0000119>Suvarna Nadendla</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1243</obo:IAO_0000233>
+        <obo:IAO_0000234>CFDE-LINCS</obo:IAO_0000234>
+        <rdfs:label>protein state assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003789"/>
+        <obo:IAO_0000111>T cell receptor repertoire sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A sequencing assay that determines the sequences of DNA or RNA molecules that encode the repertoire of T cell receptors within an input sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000118>TCR repertoire sequencing assay</obo:IAO_0000118>
+        <obo:IAO_0000118>bulk TCR assay</obo:IAO_0000118>
+        <obo:IAO_0000119>doi:10.1186/s12896-017-0379-9</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1307</obo:IAO_0000233>
+        <rdfs:label>T cell receptor repertoire sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002991">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003789"/>
+        <obo:IAO_0000111>B cell receptor repertoire sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A sequencing assay that determines the sequence of a DNA or RNA molecules that encode the repertoire of B cell receptors within an input sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000118>Antibody repertoire sequencing assay</obo:IAO_0000118>
+        <obo:IAO_0000118>BCR repertoire sequencing assay</obo:IAO_0000118>
+        <obo:IAO_0000118>bulk BCR assay</obo:IAO_0000118>
+        <obo:IAO_0000119>doi:10.1186/s12896-017-0379-9</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1307</obo:IAO_0000233>
+        <rdfs:label>B cell receptor repertoire sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <obo:IAO_0000111>genotyping by PCR assay</obo:IAO_0000111>
+        <obo:IAO_0000112>genotyping by PCR assay to identify microsatellites, chromosomal inversions and targeted assays of known resistance loci.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A genotyping assay that uses polymerase chain reaction.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, ORCID:0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng, ORCID:0000-0002-2999-0103</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1348</obo:IAO_0000233>
+        <obo:IAO_0000234>VEuPathDB</obo:IAO_0000234>
+        <rdfs:label>genotyping by PCR assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001271"/>
+        <obo:IAO_0000111>bulk RNA-seq assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A transcription profiling by RNA sequencing assay in which the sample that is sequenced is derived from a collection of cells, such as a tissue sample or entire cell culture, and therefore provides results representative of the aggregate of sample cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000117>Suvarna Nadendla</obo:IAO_0000117>
+        <obo:IAO_0000119>url:https://www.biostars.org/p/458516/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1396</obo:IAO_0000233>
+        <obo:IAO_0000234>CFDE</obo:IAO_0000234>
+        <rdfs:label>bulk RNA-seq assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003866"/>
+        <obo:IAO_0000111>sequential fluorescence in-situ hybridization assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A fluorescence in-situ hybridization assay that involves ultra-resolution imaging of cell activity by targetting thousands of single molecules with fluorescent probes which find and hybridize with complementary DNA or RNA sequences in the tissue sample, thus enabling identification of those molecules directly in single cells with their spatial context preserved.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000117>Suvarna Nadendla</obo:IAO_0000117>
+        <obo:IAO_0000118>CosMX</obo:IAO_0000118>
+        <obo:IAO_0000118>Xenium</obo:IAO_0000118>
+        <obo:IAO_0000118>seqFISH</obo:IAO_0000118>
+        <obo:IAO_0000119>url:https://spatial.caltech.edu/seqfish/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1413</obo:IAO_0000233>
+        <obo:IAO_0000234>CFDE</obo:IAO_0000234>
+        <rdfs:label>sequential fluorescence in-situ hybridization assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003875"/>
+        <obo:IAO_0000111>slide-seq assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A transcription profiling by RNA sequencing assay that involves transfer of RNA from tissue sections onto a surface covered in DNA-barcoded beads with known positions, allowing the locations of the RNA to be inferred by sequencing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Michelle Giglio</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Jackson</obo:IAO_0000117>
+        <obo:IAO_0000117>Suvarna Nadendla</obo:IAO_0000117>
+        <obo:IAO_0000118>Visium</obo:IAO_0000118>
+        <obo:IAO_0000118>Visium HD</obo:IAO_0000118>
+        <obo:IAO_0000118>Visium HD 3&apos;</obo:IAO_0000118>
+        <obo:IAO_0000119>url:https://science.sciencemag.org/content/363/6434/1463</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1414</obo:IAO_0000233>
+        <obo:IAO_0000234>CFDE</obo:IAO_0000234>
+        <rdfs:label>slide-seq assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>Olink assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A proximity extension assay that uses quantitative polymerase chain reaction (qPCR) technology to determine the concentration/presence of proteins using a high-multiplex, high-throughput protein biomarker platform. The assay utilizes two distinct oligonucleotide-labeled antibodies (‘probes’) that bind at different sites for each detected protein. When the two probes are in close proximity, a new PCR target sequence is formed by a proximity-dependent DNA polymerization event. The resulting sequence is subsequently detected and quantified using standard real-time PCR.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Hector Guzman-Orozco</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.olink.com/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1308</obo:IAO_0000233>
+        <obo:IAO_0000234>ImmPort</obo:IAO_0000234>
+        <rdfs:label>Olink assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>antigen detection by cytometric bead array assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cytometric bead array assay in which a series of beads are coated with antibodies specific to antigens of interest. Antigens of interest attach to antibodies on the beads. Fluorescent labeled secondary antibodies are used to detect the antigens of interest.</obo:IAO_0000115>
+        <obo:IAO_0000117>CMI-PB</obo:IAO_0000117>
+        <obo:IAO_0000119>CMI-PB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1399</obo:IAO_0000233>
+        <rdfs:label>antigen detection by cytometric bead array assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002991"/>
+        <obo:IAO_0000111>single cell B cell receptor repertoire sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A B cell receptor repertoire sequencing assay that determines the sequence of DNA or RNA molecules that encode the repertoire of B cell receptors that can be traced to a single cell of origin.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000118>single-cell BCR assay</obo:IAO_0000118>
+        <rdfs:label>single cell B cell receptor repertoire sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002990"/>
+        <obo:IAO_0000111>single cell T cell receptor repertoire sequencing assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A T cell receptor repertoire sequencing assay that determines the sequence of DNA or RNA molecules that encode the repertoire of T cell receptors that can be traced to a single cell of origin.</obo:IAO_0000115>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000118>single-cell TCR assay</obo:IAO_0000118>
+        <rdfs:label>single cell T cell receptor repertoire sequencing assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000111>vital sign assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An assay of a organism to measure basic physiological functions such as breathing, pulse, etc. (phylum bilateral).</obo:IAO_0000115>
+        <obo:IAO_0000117>Jennifer Fostel</obo:IAO_0000117>
+        <rdfs:label>vital sign assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000111>clinical history collection assay</obo:IAO_0000111>
+        <obo:IAO_0000112>A clinician asking a patient about the patient&apos;s smoking status.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical assay that produces a data item indicating whether an organism has ever had a particular disease, lifestyle factor, immune exposure, or medical procedure.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>clinical history collection assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000111>disease severity assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Measuring bone mineral density to determine the severity of osteoporosis.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the severity of a disease in an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>disease severity assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>blood type assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Identifying a person&apos;s ABO blood type.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that classifies an organism&apos;s blood within one or more blood group classification systems by identifying antigens present in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000119>https://medlineplus.gov/ency/article/003345.htm</obo:IAO_0000119>
+        <rdfs:label>blood type assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <obo:IAO_0000111>chemiluminescent assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay that detects a substance by measuring the release of light triggered by a chemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>CLIA</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>chemiluminescent assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <obo:IAO_0000111>electrochemiluminescence assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A chemiluminescent assay that detects a substance by measuring the release of light triggered by an electrochemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>ECL</obo:IAO_0000118>
+        <obo:IAO_0000118>Meso Scale Discovery ECL</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>electrochemiluminescence assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
+        <obo:IAO_0000111>proteomics by mass spectrometry assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A mass spectrometry assay that identifies and measures proteins.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>proteomics by mass spectrometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
+        <obo:IAO_0000111>metabolomics by mass spectrometry assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A mass spectrometry assay that identifies and measures metabolites.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>metabolomics by mass spectrometry assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003862"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <obo:IAO_0000111>cellular indexing of transcriptomes and epitopes by sequencing</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay performed on single cells that simultaneously measures transcript expression via single-cell RNA sequencing and profiles surface proteins via sequencing of DNA-barcodes attached to antibodies recognizing particular surface proteins from individual cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>CITE-Seq</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>cellular indexing of transcriptomes and epitopes by sequencing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003789">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003858"/>
+        <obo:IAO_0000111>immune receptor repertoire profiling assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that determines the sequence of a DNA or RNA molecules that encode the repertoire of B cell receptors or T cell receptors within an input sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>immune receptor repertoire profiling assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <obo:IAO_0000111>antibody-dependent complement deposition assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An assay measuring antibody-dependent complement-dependent cytotoxicity.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>ADCD</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>antibody-dependent complement deposition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <obo:IAO_0000111>bacterial flagellin detection in plasma assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay measuring bacterial flagellin in a plasma sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>bacterial flagellin detection in plasma assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <obo:IAO_0000111>bacterial flagellin detection in feces assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay measuring bacterial flagellin in a feces sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>bacterial flagellin detection in feces assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <obo:IAO_0000111>bacterial lipopolysaccharide detection in plasma assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay measuring bacterial lipopolysaccharide in a plasma sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>LPS</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>bacterial lipopolysaccharide detection in plasma assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <obo:IAO_0000111>bacterial lipopolysaccharide detection in feces assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay measuring bacterial lipopolysaccharide in a feces sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000118>LPS</obo:IAO_0000118>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>bacterial lipopolysaccharide detection in feces assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <obo:IAO_0000111>pathogen neutralization assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures neutralization of a pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>pathogen neutralization assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003796"/>
+        <obo:IAO_0000111>bacterial neutralization assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A pathogen neutralization assay measuring neutralization of bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>bacterial neutralization assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003870"/>
+        <obo:IAO_0000111>viral plaque assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay measuring the number of discrete viral plaques.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:Ê25407402</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>viral plaque assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <obo:IAO_0000111>analyte detection by flow based bead assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An analyte assay that uses beads to measure the concentration of an analyte with a flow cytometer.</obo:IAO_0000115>
+        <obo:IAO_0000117>SD</obo:IAO_0000117>
+        <obo:IAO_0000119>HCC</obo:IAO_0000119>
+        <obo:IAO_0000234>HCC</obo:IAO_0000234>
+        <rdfs:label>analyte detection by flow based bead assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>AIR sequence assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that characterizes the functions of antibodies in an input specimen.</obo:IAO_0000115>
+        <rdfs:label>antibody function assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An in live organism assay that produces information about characteristics of the organism&apos;s whole body.</obo:IAO_0000115>
+        <rdfs:label>body morphological assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures characteristics of cells, reported on a per-cell basis.</obo:IAO_0000115>
+        <rdfs:label>cell assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003862">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>cytometry with transcriptomics assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003863">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+        <rdfs:label>ELISA measuring antibody binding to antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+        <rdfs:label>ELISA measuring antigen binding to antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003865 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003865">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the modifications of DNA or DNA-associated chromatin.</obo:IAO_0000115>
+        <rdfs:label>epigenetic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003875"/>
+        <rdfs:label>localized molecular composition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003867">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures composition of or characteristics of microbes in an input sample.</obo:IAO_0000115>
+        <rdfs:label>microbial assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003868 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003868">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbial component detection </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003869">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbiome composition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbial detection assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:label>molecular analyte assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that detects the identity and amount of molecular components in a specimen.</obo:IAO_0000115>
+        <rdfs:label>molecular composition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that detects the presence or composition of nucleotide sequences.</obo:IAO_0000115>
+        <rdfs:label>nucleotide sequence assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces data about the spatial arrangement of components of an input.</obo:IAO_0000115>
+        <rdfs:label>spatially resolved assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:label>targeted molecular composition assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003878">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>targeted sequence analyte assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003879">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>targeted transcriptomic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003880">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>transcriptomic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces information about whether or not a patient reports having a symptom.</obo:IAO_0000115>
+        <rdfs:label>patient-reported symptom assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that results in a diagnosis of a disease in an organism.</obo:IAO_0000115>
+        <rdfs:label>diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <obo:IAO_0000111>enzyme-linked immunospot assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Determination of the frequency of cells producing IFN-gamma in response to viral peptides by placing effector cells on a anti IFN-gamma coated plate, and adding antigen presenting cells pulsed with a peptide. After washing, the bound IFN-gamma is detected with a secondary antibody linked to a dye that visualizes as one spot per cell.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A cytometry assay in which cells are cultured on a surface coated with a capture antibody binding a secretory material of interest which subsequently gets stained resulting in a spot for each cell producing the secretory material of interest.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000118>ELISPOT assay</obo:IAO_0000118>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>enzyme-linked immunospot assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <obo:IAO_0000111>assay measuring binding of a MHC:ligand complex</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A MHC ligand assay that detects the binding of a ligand to an MHC molecule.</obo:IAO_0000115>
+        <obo:IAO_0000117>IEDB</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <obo:OBI_9991118>MHC binding|any method</obo:OBI_9991118>
+        <rdfs:label>assay measuring binding of a MHC:ligand complex</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

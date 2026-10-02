@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <rdfs:label>assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label>imaging assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000435 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>genotyping assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:label>mass spectrometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000626 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>DNA sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000634 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <rdfs:label>DNA methylation profiling assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000661 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <rdfs:label>enzyme-linked immunosorbent assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000669 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000891"/>
+        <rdfs:label>tritiated thymidine incorporation assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000854 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000854">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>western blot assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000872 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <rdfs:label>serum neutralization of viral infectivity assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000875 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <rdfs:label>viral hemagglutination inhibition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000891 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003861"/>
+        <rdfs:label>cell proliferation assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000893 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003878"/>
+        <rdfs:label>real time polymerase chain reaction assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000916 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000916">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>flow cytometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000920 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000920">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>cytometric bead array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000923 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <rdfs:label>surface plasmon resonance binding assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000966 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label>direct organism assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001146 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label>binding assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001271 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>RNA-seq assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001274 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <rdfs:label>genotyping by array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001318 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>proteomic profiling by array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001332 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <rdfs:label>DNA methylation profiling by array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001463 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003879"/>
+        <rdfs:label>transcription profiling by array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001926 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>microRNA profiling assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001977 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003861"/>
+        <rdfs:label>cytometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001986 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003866"/>
+        <rdfs:label>immunohistochemistry</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <rdfs:label>genotyping by SNP array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002107 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <rdfs:label>bio-layer interferometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002115 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>cytometry time of flight assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002119 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185"/>
+        <rdfs:label>microscopy assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002122 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <rdfs:label>major histocompatibility typing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002142 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>Nanostring nCounter miRNA expression assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002157 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003870"/>
+        <rdfs:label>HBV surface antigen assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002623 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003869"/>
+        <rdfs:label>whole metagenome sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002631 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001271"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>single-cell RNA sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002692 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003878"/>
+        <rdfs:label>polymerase chain reaction assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002763 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003869"/>
+        <rdfs:label>16s ribosomal gene sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002764 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003865"/>
+        <rdfs:label>single-cell ATAC-seq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002953 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label>protein state assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002990 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003789"/>
+        <rdfs:label>T cell receptor repertoire sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002991 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002991">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003789"/>
+        <rdfs:label>B cell receptor repertoire sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003032 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000435"/>
+        <rdfs:label>genotyping by PCR assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003090 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001271"/>
+        <rdfs:label>bulk RNA-seq assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003106 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003866"/>
+        <obo:IAO_0000118>CosMX</obo:IAO_0000118>
+        <obo:IAO_0000118>Xenium</obo:IAO_0000118>
+        <rdfs:label>sequential fluorescence in-situ hybridization assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003107 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003875"/>
+        <obo:IAO_0000118>Visium</obo:IAO_0000118>
+        <obo:IAO_0000118>Visium HD</obo:IAO_0000118>
+        <obo:IAO_0000118>Visium HD 3&apos;</obo:IAO_0000118>
+        <rdfs:label>slide-seq assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003112 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>Olink assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003115 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>antigen detection by cytometric bead array assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003598 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002991"/>
+        <rdfs:label>single cell B cell receptor repertoire sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003599 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002990"/>
+        <rdfs:label>single cell T cell receptor repertoire sequencing assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003715 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <rdfs:label>vital sign assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003734 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <rdfs:label>clinical history collection assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003735 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <rdfs:label>disease severity assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003738 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:label>blood type assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003779 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <rdfs:label>chemiluminescent assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003780 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003871"/>
+        <rdfs:label>electrochemiluminescence assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003781 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
+        <rdfs:label>proteomics by mass spectrometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003782 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
+        <rdfs:label>metabolomics by mass spectrometry assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003788 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003862"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>cellular indexing of transcriptomes and epitopes by sequencing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003789 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003789">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003858"/>
+        <rdfs:label>immune receptor repertoire profiling assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003790 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <rdfs:label>antibody-dependent complement deposition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003791 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <rdfs:label>bacterial flagellin detection in plasma assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003792 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <rdfs:label>bacterial flagellin detection in feces assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003793 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <rdfs:label>bacterial lipopolysaccharide detection in plasma assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003794 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003868"/>
+        <rdfs:label>bacterial lipopolysaccharide detection in feces assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003796 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003859"/>
+        <rdfs:label>pathogen neutralization assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003797 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003796"/>
+        <rdfs:label>bacterial neutralization assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003798 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003870"/>
+        <rdfs:label>viral plaque assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003799 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003877"/>
+        <rdfs:label>analyte detection by flow based bead assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003858 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>AIR sequence assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003859 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that characterizes the functions of antibodies in an input specimen.</obo:IAO_0000115>
+        <rdfs:label>antibody function assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003860 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An in live organism assay that produces information about characteristics of the organism&apos;s whole body.</obo:IAO_0000115>
+        <rdfs:label>body morphological assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003861 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures characteristics of cells, reported on a per-cell basis.</obo:IAO_0000115>
+        <rdfs:label>cell assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003862 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003862">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>cytometry with transcriptomics assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003863 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003863">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+        <rdfs:label>ELISA measuring antibody binding to antigen</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003864 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+        <rdfs:label>ELISA measuring antigen binding to antibody</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003865 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003865">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the modifications of DNA or DNA-associated chromatin.</obo:IAO_0000115>
+        <rdfs:label>epigenetic assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003866 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003875"/>
+        <rdfs:label>localized molecular composition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003867 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003867">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures composition of or characteristics of microbes in an input sample.</obo:IAO_0000115>
+        <rdfs:label>microbial assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003868 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003868">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbial component detection </rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003869 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003869">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbiome composition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003870 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003867"/>
+        <rdfs:label>microbial detection assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003871 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:label>molecular analyte assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003872 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that detects the identity and amount of molecular components in a specimen.</obo:IAO_0000115>
+        <rdfs:label>molecular composition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003873 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that detects the presence or composition of nucleotide sequences.</obo:IAO_0000115>
+        <rdfs:label>nucleotide sequence assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003875 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces data about the spatial arrangement of components of an input.</obo:IAO_0000115>
+        <rdfs:label>spatially resolved assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003877 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003872"/>
+        <rdfs:label>targeted molecular composition assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003878 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003878">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>targeted sequence analyte assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003879 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003879">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003880"/>
+        <rdfs:label>targeted transcriptomic assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003880 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003880">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003873"/>
+        <rdfs:label>transcriptomic assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003928 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that produces information about whether or not a patient reports having a symptom.</obo:IAO_0000115>
+        <rdfs:label>patient-reported symptom assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003929 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
+        <obo:IAO_0000115 xml:lang="en">An assay that results in a diagnosis of a disease in an organism.</obo:IAO_0000115>
+        <rdfs:label>diagnostic assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001977"/>
+        <rdfs:label>enzyme-linked immunospot assay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110126 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001146"/>
+        <rdfs:label>assay measuring binding of a MHC:ligand complex</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
