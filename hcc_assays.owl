@@ -231,8 +231,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000111>label</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">label</obo:IAO_0000111>
         <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
-        <rdfs:label>label</rdfs:label>
-        <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
     
 
@@ -519,12 +517,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000966">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000111>in live organism assay</obo:IAO_0000111>
+        <obo:IAO_0000111>direct organism assay</obo:IAO_0000111>
         <obo:IAO_0000112>Measuring the rate in which cells that are pulsed with a peptide are killed inside a mouse by peptide specific cytotoxic T cells.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115 xml:lang="en">An assay in which a measurement is made by observing entities located in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000118>in vivo assay</obo:IAO_0000118>
-        <rdfs:label>in live organism assay</rdfs:label>
+        <rdfs:label>assessment</rdfs:label>
     </owl:Class>
     
 

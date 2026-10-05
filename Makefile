@@ -54,20 +54,28 @@ src/ontology/robot_outputs/assays_from_obi.owl: build/obi.owl src/ontology/robot
 	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/src/ontology/robot_outputs/assays_from_obi.owl \
 	--output $@
 
-### Custom terms for HCC
+### Merge in new terms for HCC and remove labels of OBI terms to be relabeled
 # 
-src/ontology/robot_outputs/hcc_hierarchy.owl: src/ontology/robot_outputs/assays_from_obi.owl src/ontology/robot_inputs/hcc_hierarchy.tsv
+src/ontology/robot_outputs/hcc_hierarchy.owl: src/ontology/robot_outputs/assays_from_obi.owl src/ontology/robot_inputs/hcc_hierarchy.tsv src/ontology/robot_inputs/relabel.txt
 	$(ROBOT) template \
 	--merge-before \
 	--input $< \
 	--template $(word 2,$^) \
+	remove \
+	--term-file $(word 3,$^) \
+	--axioms annotation \
+	--trim false \
+	--preserve-structure false \
 	--output $@
 
-### Assay tree file
+### Assay tree file: merge in custom labels for relabeled OBI terms and annotate with IRI
 # 
-hcc_assays.owl: src/ontology/robot_outputs/hcc_hierarchy.owl
-	$(ROBOT) annotate \
+hcc_assays.owl: src/ontology/robot_outputs/hcc_hierarchy.owl src/ontology/robot_inputs/hcc_labels.tsv
+	$(ROBOT) template \
+	--merge-before \
 	--input $< \
+	--template $(word 2,$^) \
+	annotate \
 	--ontology-iri https://raw.githubusercontent.com/sebastianduesing/hcc_assay_tree/refs/heads/main/hcc_assays.owl \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@

@@ -1,0 +1,2 @@
+rdfs:label
+OBI:0000966 # in live organism assay
