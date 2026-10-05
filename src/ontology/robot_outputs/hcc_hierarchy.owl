@@ -1597,7 +1597,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0004016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003734"/>
-        <rdfs:label>clinical history collection question assay</rdfs:label>
+        <obo:IAO_0000118>clinical history collection question assay</obo:IAO_0000118>
+        <rdfs:label>clinical history collection question</rdfs:label>
     </owl:Class>
     
 
@@ -1606,7 +1607,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0004017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0004016"/>
-        <rdfs:label>disease history collection question assay</rdfs:label>
+        <obo:IAO_0000118>disease history collection question assay</obo:IAO_0000118>
+        <rdfs:label>disease history collection question</rdfs:label>
     </owl:Class>
     
 
@@ -1616,7 +1618,8 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0004018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003734"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0004015"/>
-        <rdfs:label>clinical history collection questionnaire assay</rdfs:label>
+        <obo:IAO_0000118>clinical history collection questionnaire assay</obo:IAO_0000118>
+        <rdfs:label>clinical history collection questionnaire</rdfs:label>
     </owl:Class>
     
 
