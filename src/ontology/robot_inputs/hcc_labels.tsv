@@ -1,3 +1,6 @@
 ontology ID	label	editor preferred term
 ID	A rdfs:label	A IAO:0000111 SPLIT=|
 OBI:0000966	assessment	in live organism assay|direct organism assay
+OBI:0003715	vital sign assessment	vital sign assay
+OBI:0003734	clinical history collection assessment	clinical history collection assay
+OBI:0003735	disease severity assessment	disease severity assay

@@ -1,2 +1,5 @@
 rdfs:label
 OBI:0000966 # in live organism assay
+OBI:0003715 # vital sign assay
+OBI:0003734 # clinical history collection assay
+OBI:0003735 # disease severity assay

@@ -1086,7 +1086,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 xml:lang="en">An assay of a organism to measure basic physiological functions such as breathing, pulse, etc. (phylum bilateral).</obo:IAO_0000115>
         <obo:IAO_0000117>Jennifer Fostel</obo:IAO_0000117>
-        <rdfs:label>vital sign assay</rdfs:label>
+        <rdfs:label>vital sign assessment</rdfs:label>
     </owl:Class>
     
 
@@ -1101,7 +1101,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000115 xml:lang="en">A clinical assay that produces a data item indicating whether an organism has ever had a particular disease, lifestyle factor, immune exposure, or medical procedure.</obo:IAO_0000115>
         <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000234>HCC</obo:IAO_0000234>
-        <rdfs:label>clinical history collection assay</rdfs:label>
+        <rdfs:label>clinical history collection assessment</rdfs:label>
     </owl:Class>
     
 
@@ -1116,7 +1116,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000115 xml:lang="en">An assay that measures the severity of a disease in an organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
         <obo:IAO_0000234>HCC</obo:IAO_0000234>
-        <rdfs:label>disease severity assay</rdfs:label>
+        <rdfs:label>disease severity assessment</rdfs:label>
     </owl:Class>
     
 
