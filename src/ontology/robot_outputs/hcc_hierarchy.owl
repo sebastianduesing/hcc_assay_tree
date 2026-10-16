@@ -1387,7 +1387,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
         <obo:IAO_0000115 xml:lang="en">An in live organism assay that produces information about characteristics of the organism&apos;s whole body.</obo:IAO_0000115>
-        <rdfs:label>body morphological assay</rdfs:label>
+        <rdfs:label>body morphological assessment</rdfs:label>
     </owl:Class>
     
 
@@ -1566,7 +1566,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003928">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
         <obo:IAO_0000115 xml:lang="en">An assay that produces information about whether or not a patient reports having a symptom.</obo:IAO_0000115>
-        <rdfs:label>patient-reported symptom assay</rdfs:label>
+        <rdfs:label>patient-reported symptom assessment</rdfs:label>
     </owl:Class>
     
 
@@ -1576,7 +1576,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003929">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
         <obo:IAO_0000115 xml:lang="en">An assay that results in a diagnosis of a disease in an organism.</obo:IAO_0000115>
-        <rdfs:label>diagnostic assay</rdfs:label>
+        <rdfs:label>diagnostic assessment</rdfs:label>
     </owl:Class>
     
 
@@ -1585,7 +1585,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0004015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000966"/>
-        <rdfs:label>questionnaire assay</rdfs:label>
+        <rdfs:label>questionnaire</rdfs:label>
     </owl:Class>
     
 

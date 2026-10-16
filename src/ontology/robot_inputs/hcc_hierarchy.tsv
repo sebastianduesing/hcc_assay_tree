@@ -70,7 +70,7 @@ OBI:0003798	viral plaque assay			subclass	microbial detection assay
 OBI:0003799	analyte detection by flow based bead assay			subclass	targeted molecular composition assay
 OBI:0003858	AIR sequence assay			subclass	nucleotide sequence assay
 OBI:0003859	antibody function assay	An assay that characterizes the functions of antibodies in an input specimen.		subclass	assay
-OBI:0003860	body morphological assay	An in live organism assay that produces information about characteristics of the organism's whole body.		subclass	in live organism assay
+OBI:0003860	body morphological assessment	An in live organism assay that produces information about characteristics of the organism's whole body.		subclass	in live organism assay
 OBI:0003861	cell assay	An assay that measures characteristics of cells, reported on a per-cell basis.		subclass	assay
 OBI:0003862	cytometry with transcriptomics assay			subclass	cytometry assay
 OBI:0003863	ELISA measuring antibody binding to antigen			subclass	enzyme-linked immunosorbent assay
@@ -89,11 +89,11 @@ OBI:0003877	targeted molecular composition assay			subclass	molecular compositio
 OBI:0003878	targeted sequence analyte assay			subclass	nucleotide sequence assay
 OBI:0003879	targeted transcriptomic assay			subclass	transcriptomic assay
 OBI:0003880	transcriptomic assay			subclass	nucleotide sequence assay
-OBI:0003928	patient-reported symptom assay	An assay that produces information about whether or not a patient reports having a symptom.		subclass	in live organism assay
-OBI:0003929	diagnostic assay	An assay that results in a diagnosis of a disease in an organism.		subclass	in live organism assay
-OBI:0004015	questionnaire assay			subclass	in live organism assay
+OBI:0003928	patient-reported symptom assessment	An assay that produces information about whether or not a patient reports having a symptom.		subclass	in live organism assay
+OBI:0003929	diagnostic assessment	An assay that results in a diagnosis of a disease in an organism.		subclass	in live organism assay
+OBI:0004015	questionnaire			subclass	in live organism assay
 OBI:0004016	clinical history collection question		clinical history collection question assay	subclass	clinical history collection assay
 OBI:0004017	disease history collection question		disease history collection question assay	subclass	clinical history collection question
-OBI:0004018	clinical history collection questionnaire		clinical history collection questionnaire assay	subclass	clinical history collection assay|questionnaire assay
+OBI:0004018	clinical history collection questionnaire		clinical history collection questionnaire assay	subclass	clinical history collection assay|questionnaire
 OBI:0600031	enzyme-linked immunospot assay			subclass	cytometry assay
 OBI:1110126	assay measuring binding of a MHC:ligand complex			subclass	binding assay
